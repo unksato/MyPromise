@@ -1,0 +1,36 @@
+{
+    "version": "2.0.0",
+    "compilerOptions": {
+        "target": "es5",
+        "module": "amd",
+        "sourceMap": true,
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "experimentalDecorators": true
+    },
+    "filesGlob": [
+        "./**/*.ts"
+    ],
+    "files": [
+        "./src/deferred.ts",
+        "./src/promise.ts",
+        "./test/sample.ts"
+    ],
+    "exclude": [],
+    "atom": {
+        "rewriteTsconfig": true,
+        "formatOnSave": true
+    },
+    "formatCodeOptions": {
+        "indentSize": 2,
+        "tabSize": 2,
+        "newLineCharacter": "\n",
+        "convertTabsToSpaces": true,
+        "insertSpaceAfterCommaDelimiter": true,
+        "insertSpaceBeforeAndAfterBinaryOperators": true
+    }
+}
